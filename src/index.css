@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Noto+Sans:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss' source(none);
+@source './**/*.{js,ts,jsx,tsx}';
+@import 'tw-animate-css';
+@import './styles/globals.css';
+
+@theme {
+  --color-fifomi-rojo: #BC162B;
+  --color-fifomi-dorado: #D4AF37;
+  --color-fifomi-gris: #4A4A4A;
+  --color-fifomi-blanco: #FFFFFF;
+}
+
+@layer base {
+  html, body, #root { min-height: 100vh; height: 100%; margin: 0; }
+}
